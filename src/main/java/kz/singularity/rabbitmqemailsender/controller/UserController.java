@@ -22,6 +22,4 @@ public class UserController {
                 .statusMsg("GOOD")
                 .build(), HttpStatus.OK);
     }
-
-    // add text
 }
