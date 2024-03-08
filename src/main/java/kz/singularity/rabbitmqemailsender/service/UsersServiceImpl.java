@@ -25,7 +25,6 @@ public class UsersServiceImpl implements UsersService{
 
     @Autowired
     private RabbitTemplate rabbitTemplate;
-    // some
     @Value("${rabbitmq.exchange.email.name}")
     private String emailExchange;
     @Value("${rabbitmq.binding.email.name}")
