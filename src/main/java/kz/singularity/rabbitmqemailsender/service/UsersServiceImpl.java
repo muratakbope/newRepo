@@ -9,7 +9,6 @@ import kz.singularity.rabbitmqemailsender.mapper.UsersMapper;
 import kz.singularity.rabbitmqemailsender.model.EmailDetails;
 import kz.singularity.rabbitmqemailsender.model.RequestDto;
 import kz.singularity.rabbitmqemailsender.model.UserDetailsDto;
-import org.apache.catalina.User;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
